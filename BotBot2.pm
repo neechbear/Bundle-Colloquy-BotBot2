@@ -1,6 +1,6 @@
 package Bundle::Colloquy::BotBot2;
 
-$VERSION = '1.00';
+$VERSION = '1.01';
 
 1;
 
@@ -15,6 +15,10 @@ Bundle::Colloquy::BotBot2 - A bundle to install all modules required for BotBot2
 C<perl -MCPAN -e 'install Bundle::Colloquy::BotBot2'>
 
 =head1 CONTENTS
+
+Parse::Colloquy::Bot - Parse Colloquy bot/client terminal output
+
+Proc::DaemonLite - Simple server daemonisation module
 
 Colloquy::Bot::Simple - Simple robot interface for Colloquy
 
